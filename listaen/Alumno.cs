@@ -16,7 +16,7 @@ namespace listaen
         string apellidoPaterno;
         string apellidoMaterno;
         string direccion;
-        string ArchivoAlumno = "Alumno.txt";
+        string ArchivoAlumno = "Alumno.txt";//string archivoAlumno
         FileStream filestream;
         StreamWriter streamWriter;
         StreamReader streamReader;
