@@ -28,171 +28,172 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textmatri = new System.Windows.Forms.TextBox();
-            this.textnombre = new System.Windows.Forms.TextBox();
-            this.textApater = new System.Windows.Forms.TextBox();
-            this.textAMater = new System.Windows.Forms.TextBox();
-            this.textDirecc = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.BtnCancelar = new System.Windows.Forms.Button();
-            this.BtnGuardar = new System.Windows.Forms.Button();
-            this.BtnListar = new System.Windows.Forms.Button();
-            this.richlista = new System.Windows.Forms.RichTextBox();
+            this.lblMatricula = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblApallidoPaterno = new System.Windows.Forms.Label();
+            this.lblApellidoMaterno = new System.Windows.Forms.Label();
+            this.lblDireccion = new System.Windows.Forms.Label();
+            this.txtmatricula = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtApellidoPaterno = new System.Windows.Forms.TextBox();
+            this.txtApellidoMaterno = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.cmb = new System.Windows.Forms.ComboBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnListar = new System.Windows.Forms.Button();
+            this.rtb = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lblMatricula
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Matricula:";
+            this.lblMatricula.AutoSize = true;
+            this.lblMatricula.Location = new System.Drawing.Point(75, 67);
+            this.lblMatricula.Name = "lblMatricula";
+            this.lblMatricula.Size = new System.Drawing.Size(53, 13);
+            this.lblMatricula.TabIndex = 0;
+            this.lblMatricula.Text = "Matricula:";
             // 
-            // label2
+            // lblNombre
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 110);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nombre:";
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(79, 110);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(47, 13);
+            this.lblNombre.TabIndex = 1;
+            this.lblNombre.Text = "Nombre:";
             // 
-            // label3
+            // lblApallidoPaterno
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(41, 156);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Apelldio Paterno:";
+            this.lblApallidoPaterno.AutoSize = true;
+            this.lblApallidoPaterno.Location = new System.Drawing.Point(41, 156);
+            this.lblApallidoPaterno.Name = "lblApallidoPaterno";
+            this.lblApallidoPaterno.Size = new System.Drawing.Size(87, 13);
+            this.lblApallidoPaterno.TabIndex = 2;
+            this.lblApallidoPaterno.Text = "Apelldio Paterno:";
             // 
-            // label4
+            // lblApellidoMaterno
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 198);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Apellido Materno:";
+            this.lblApellidoMaterno.AutoSize = true;
+            this.lblApellidoMaterno.Location = new System.Drawing.Point(39, 198);
+            this.lblApellidoMaterno.Name = "lblApellidoMaterno";
+            this.lblApellidoMaterno.Size = new System.Drawing.Size(89, 13);
+            this.lblApellidoMaterno.TabIndex = 3;
+            this.lblApellidoMaterno.Text = "Apellido Materno:";
             // 
-            // label5
+            // lblDireccion
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(73, 242);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Direccion:";
+            this.lblDireccion.AutoSize = true;
+            this.lblDireccion.Location = new System.Drawing.Point(73, 242);
+            this.lblDireccion.Name = "lblDireccion";
+            this.lblDireccion.Size = new System.Drawing.Size(55, 13);
+            this.lblDireccion.TabIndex = 4;
+            this.lblDireccion.Text = "Direccion:";
             // 
-            // textmatri
+            // txtmatricula
             // 
-            this.textmatri.Location = new System.Drawing.Point(148, 59);
-            this.textmatri.Name = "textmatri";
-            this.textmatri.Size = new System.Drawing.Size(100, 20);
-            this.textmatri.TabIndex = 5;
+            this.txtmatricula.Location = new System.Drawing.Point(148, 59);
+            this.txtmatricula.Name = "txtmatricula";
+            this.txtmatricula.Size = new System.Drawing.Size(100, 20);
+            this.txtmatricula.TabIndex = 5;
             // 
-            // textnombre
+            // txtNombre
             // 
-            this.textnombre.Location = new System.Drawing.Point(148, 107);
-            this.textnombre.Name = "textnombre";
-            this.textnombre.Size = new System.Drawing.Size(100, 20);
-            this.textnombre.TabIndex = 6;
+            this.txtNombre.Location = new System.Drawing.Point(148, 107);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtNombre.TabIndex = 6;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
-            // textApater
+            // txtApellidoPaterno
             // 
-            this.textApater.Location = new System.Drawing.Point(148, 153);
-            this.textApater.Name = "textApater";
-            this.textApater.Size = new System.Drawing.Size(100, 20);
-            this.textApater.TabIndex = 7;
+            this.txtApellidoPaterno.Location = new System.Drawing.Point(148, 153);
+            this.txtApellidoPaterno.Name = "txtApellidoPaterno";
+            this.txtApellidoPaterno.Size = new System.Drawing.Size(100, 20);
+            this.txtApellidoPaterno.TabIndex = 7;
             // 
-            // textAMater
+            // txtApellidoMaterno
             // 
-            this.textAMater.Location = new System.Drawing.Point(148, 191);
-            this.textAMater.Name = "textAMater";
-            this.textAMater.Size = new System.Drawing.Size(100, 20);
-            this.textAMater.TabIndex = 8;
+            this.txtApellidoMaterno.Location = new System.Drawing.Point(148, 191);
+            this.txtApellidoMaterno.Name = "txtApellidoMaterno";
+            this.txtApellidoMaterno.Size = new System.Drawing.Size(100, 20);
+            this.txtApellidoMaterno.TabIndex = 8;
             // 
-            // textDirecc
+            // txtDireccion
             // 
-            this.textDirecc.Location = new System.Drawing.Point(148, 235);
-            this.textDirecc.Multiline = true;
-            this.textDirecc.Name = "textDirecc";
-            this.textDirecc.Size = new System.Drawing.Size(180, 56);
-            this.textDirecc.TabIndex = 9;
+            this.txtDireccion.Location = new System.Drawing.Point(148, 235);
+            this.txtDireccion.Multiline = true;
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(180, 56);
+            this.txtDireccion.TabIndex = 9;
             // 
-            // comboBox1
+            // cmb
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(281, 57);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 10;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cmb.FormattingEnabled = true;
+            this.cmb.Location = new System.Drawing.Point(281, 57);
+            this.cmb.Name = "cmb";
+            this.cmb.Size = new System.Drawing.Size(121, 21);
+            this.cmb.TabIndex = 10;
+            this.cmb.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // BtnCancelar
+            // btnCancelar
             // 
-            this.BtnCancelar.Location = new System.Drawing.Point(31, 320);
-            this.BtnCancelar.Name = "BtnCancelar";
-            this.BtnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.BtnCancelar.TabIndex = 11;
-            this.BtnCancelar.Text = "Cancelar";
-            this.BtnCancelar.UseVisualStyleBackColor = true;
-            this.BtnCancelar.Click += new System.EventHandler(this.button1_Click);
+            this.btnCancelar.Location = new System.Drawing.Point(31, 320);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // BtnGuardar
+            // btnGuardar
             // 
-            this.BtnGuardar.Location = new System.Drawing.Point(148, 320);
-            this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(75, 23);
-            this.BtnGuardar.TabIndex = 12;
-            this.BtnGuardar.Text = "Guardar";
-            this.BtnGuardar.UseVisualStyleBackColor = true;
-            this.BtnGuardar.Click += new System.EventHandler(this.button2_Click_1);
+            this.btnGuardar.Location = new System.Drawing.Point(148, 320);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.TabIndex = 12;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // BtnListar
+            // btnListar
             // 
-            this.BtnListar.Location = new System.Drawing.Point(281, 320);
-            this.BtnListar.Name = "BtnListar";
-            this.BtnListar.Size = new System.Drawing.Size(75, 23);
-            this.BtnListar.TabIndex = 15;
-            this.BtnListar.Text = "Listar";
-            this.BtnListar.UseVisualStyleBackColor = true;
-            this.BtnListar.Click += new System.EventHandler(this.btnlistar_Click);
+            this.btnListar.Location = new System.Drawing.Point(281, 320);
+            this.btnListar.Name = "btnListar";
+            this.btnListar.Size = new System.Drawing.Size(75, 23);
+            this.btnListar.TabIndex = 15;
+            this.btnListar.Text = "Listar";
+            this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnlistar_Click);
             // 
-            // richlista
+            // rtb
             // 
-            this.richlista.Location = new System.Drawing.Point(486, 36);
-            this.richlista.Name = "richlista";
-            this.richlista.Size = new System.Drawing.Size(230, 306);
-            this.richlista.TabIndex = 16;
-            this.richlista.Text = "";
+            this.rtb.Location = new System.Drawing.Point(486, 36);
+            this.rtb.Name = "rtb";
+            this.rtb.Size = new System.Drawing.Size(230, 306);
+            this.rtb.TabIndex = 16;
+            this.rtb.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.richlista);
-            this.Controls.Add(this.BtnListar);
-            this.Controls.Add(this.BtnGuardar);
-            this.Controls.Add(this.BtnCancelar);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textDirecc);
-            this.Controls.Add(this.textAMater);
-            this.Controls.Add(this.textApater);
-            this.Controls.Add(this.textnombre);
-            this.Controls.Add(this.textmatri);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.rtb);
+            this.Controls.Add(this.btnListar);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.cmb);
+            this.Controls.Add(this.txtDireccion);
+            this.Controls.Add(this.txtApellidoMaterno);
+            this.Controls.Add(this.txtApellidoPaterno);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.txtmatricula);
+            this.Controls.Add(this.lblDireccion);
+            this.Controls.Add(this.lblApellidoMaterno);
+            this.Controls.Add(this.lblApallidoPaterno);
+            this.Controls.Add(this.lblNombre);
+            this.Controls.Add(this.lblMatricula);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -203,21 +204,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textmatri;
-        private System.Windows.Forms.TextBox textnombre;
-        private System.Windows.Forms.TextBox textApater;
-        private System.Windows.Forms.TextBox textAMater;
-        private System.Windows.Forms.TextBox textDirecc;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button BtnCancelar;
-        private System.Windows.Forms.Button BtnGuardar;
-        private System.Windows.Forms.Button BtnListar;
-        private System.Windows.Forms.RichTextBox richlista;
+        private System.Windows.Forms.Label lblMatricula;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblApallidoPaterno;
+        private System.Windows.Forms.Label lblApellidoMaterno;
+        private System.Windows.Forms.Label lblDireccion;
+        private System.Windows.Forms.TextBox txtmatricula;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtApellidoPaterno;
+        private System.Windows.Forms.TextBox txtApellidoMaterno;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.ComboBox cmb;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnListar;
+        private System.Windows.Forms.RichTextBox rtb;
     }
 }
 

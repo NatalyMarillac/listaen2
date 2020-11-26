@@ -20,11 +20,11 @@ namespace listaen
         Alumno alumno = new Alumno();
         public void limpiar()
         {
-            textAMater.Clear();
-            textApater.Clear();
-            textmatri.Clear();
-            textnombre.Clear();
-            textDirecc.Clear();
+            txtApellidoMaterno.Clear();
+            txtApellidoPaterno.Clear();
+            txtmatricula.Clear();
+            txtNombre.Clear();
+            txtDireccion.Clear();
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -46,9 +46,9 @@ namespace listaen
         {
             alumno = new Alumno();
             ListaAlumno = new List<Alumno>(alumno.LeerArchivo());
-            comboBox1.DataSource = ListaAlumno;
-            comboBox1.ValueMember = "matricula";
-            comboBox1.DisplayMember = "nombre";
+            cmb.DataSource = ListaAlumno;
+            cmb.ValueMember = "matricula";
+            cmb.DisplayMember = "nombre";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -60,7 +60,7 @@ namespace listaen
         {
             foreach(Alumno AlumnoImprime in ListaAlumno)
             {
-                richlista.Text = richlista.Text + AlumnoImprime.Matricula + " " + AlumnoImprime.Nombre + " " +
+                rtb.Text = rtb.Text + AlumnoImprime.Matricula + " " + AlumnoImprime.Nombre + " " +
                     AlumnoImprime.ApellidoPaterno+" "+ AlumnoImprime.ApellidoMaterno+" "+ AlumnoImprime.Direccion+"\n";
                     
             }
@@ -69,7 +69,7 @@ namespace listaen
         private void button2_Click_1(object sender, EventArgs e)
         {
 
-            alumno = new Alumno(textmatri.Text, textnombre.Text, textApater.Text,textAMater.Text, textDirecc.Text);
+            alumno = new Alumno(txtmatricula.Text, txtNombre.Text, txtApellidoPaterno.Text,txtApellidoMaterno.Text, txtDireccion.Text);
             if (alumno.Guardar()==true)
             {
                 cargarcombo();
@@ -84,13 +84,16 @@ namespace listaen
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            textmatri.Text = comboBox1.SelectedValue.ToString();
-            textnombre.Text =comboBox1.SelectedValue.ToString();
-            textAMater.Text = comboBox1.SelectedValue.ToString();
-            textApater.Text = comboBox1.SelectedValue.ToString();
-            textDirecc.Text = comboBox1.SelectedValue.ToString();
+            txtmatricula.Text = cmb.SelectedValue.ToString();
+            txtNombre.Text =cmb.SelectedValue.ToString();
+            txtApellidoMaterno.Text = cmb.SelectedValue.ToString();
+            txtApellidoPaterno.Text = cmb.SelectedValue.ToString();
+            txtDireccion.Text = cmb.SelectedValue.ToString();
         }
 
-        
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
